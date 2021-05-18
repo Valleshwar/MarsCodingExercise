@@ -1,0 +1,19 @@
+# MarsCodingExercise
+1 . Here I used IN-memory DB - H2..  
+
+2. Application will accept both XML and JSON request from POSTMAN.
+
+ postman urls :
+ 
+ save -> http://localhost:8080/mars/addPerson
+ getPersons -> http://localhost:8080/mars/getPersons
+ editPerson -> http://localhost:8080/mars/editPerson
+ deletePerson->http://localhost:8080/mars/deletePerson/1
+  getCount -> http://localhost:8080/mars/getCount
+
+3. Sample User save request
+
+	<item>
+        <firstName>Vallesh</firstName>
+        <surName>Venkannagari</surName>
+    </item>
